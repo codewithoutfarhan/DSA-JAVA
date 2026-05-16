@@ -1,0 +1,9 @@
+package strallcodes;
+
+public class countthedigitsinagivennumber {
+    public static  void main(String[]args){
+        int x=123456789;
+        String s = Integer.toString(x);
+        System.out.println("length of a given number is " + s.length());
+    }
+}
