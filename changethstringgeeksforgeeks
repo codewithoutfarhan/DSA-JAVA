@@ -1,0 +1,22 @@
+package strallcodes;
+
+public class chnagethestringgeeksforgeeks {
+    public static void main(String[] args) {
+
+        String str = "abCd";
+
+        char ch = str.charAt(0);
+
+        // if first character is lowercase
+        if (ch >= 'a' && ch <= 'z') {
+
+            System.out.println(str.toUpperCase());
+
+        }
+        else {
+
+            System.out.println(str.toLowerCase());
+
+        }
+    }
+}
