@@ -1,0 +1,9 @@
+package strallcodes;
+
+public class tconvertintegertostring {
+    public static  void main(String[]args){
+        int x=10;
+        String s = Integer.toString(x);
+        System.out.println(s);
+    }
+}
